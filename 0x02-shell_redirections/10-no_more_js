@@ -1,2 +1,2 @@
 #!/bin/bash
-rm < find . *.txt
+find . name "*.txt" -type f -delete
